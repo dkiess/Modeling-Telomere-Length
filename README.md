@@ -3,7 +3,10 @@ Modeling telomere length compared to age using data from the 2001-2002 NHANES pe
 
 This README file contains an overview of each component of this inquiry project for F block Molecular Genetics. 
 
-Before running the program for yourself, you may need to install the python library 
+This iPyhon notebook can be run using datahub, binder, Google Colab, or another IDE that supports the .ipynb format. 
+
+Before running the program, you may need to install the python libraries, this can be done my running the line 'pip install <pythonlibrary>' for each library that must be installed
+    
 I recieved help from Victor Hoppenot, a classmate an long time friend of mine, who helped me with some of the data preparation work I did to the data from the CDC. 
 
 I obtained the data I used to produce my model from the CDC's National Health and Nutrition Examination Survey (NHANES). The NHANES collected telomere data from particpants from 1999 to 2002 and makes them available for everyone to download. I used the data from the 1999-2000 NHANES, so I downloaded TELO_A.XPT, the document containing the telomere data and the reference number of the participant. I also downloaded DEMO.XPT, which contains the age adn partcipant reference number data. 
